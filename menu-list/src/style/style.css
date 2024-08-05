@@ -1,0 +1,79 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:beige;
+    margin: 0;
+    padding: 0;
+}
+main section{
+    width: 100%;
+    height: auto;
+    margin: 5rem auto;
+}
+/* @media only screen and (max-height: 100vh) {
+    .table{
+        
+    }
+  } */
+main section h2{
+    margin: 0;
+    text-align: center;
+}
+main section .secHr{
+    width: 6rem;
+    margin: 0.5rem auto;
+    border: 2px solid rgb(58, 20, 2);
+}
+.catagory{
+    margin: 2rem;
+    text-align: center;
+}
+.catagory .btn{
+    background: none;
+	color: sienna;
+	border: 3px solid sienna;
+	padding: 5px;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    text-align: center;
+    margin: 3rem;
+    border-radius: 5px;
+}
+.catagory .btn:hover{
+    background-color: sienna;
+    color: white;
+}
+.table{
+    width: 30rem;
+    height: auto;
+    margin-bottom: 1rem;
+    margin-left: 3rem;
+}
+.table img{
+    width: 10rem;
+    height: 10rem;
+    border: 3px solid sienna;
+    padding: 0;
+}
+.table .headOfMenu{
+    height: 1.5rem;
+    padding: 0;
+}
+.table .headOfMenu span{
+    color: sienna;
+}
+.table .headOfMenu h6{
+    font-weight: bold;
+    font-style: italic;
+}
+.table .hr{
+    height: 1px;
+    width: 87%;
+    background-color: gray;
+    margin: 0;
+    padding: 0;
+}
+.table .descriptionOfMenu{
+    font-style: italic;
+    padding-left: 1rem;
+}

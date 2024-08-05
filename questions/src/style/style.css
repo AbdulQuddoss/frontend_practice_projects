@@ -1,0 +1,50 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: bisque;
+}
+main section{
+    width: 30rem;
+    height: auto;
+    background-color: white;
+    margin: 3rem auto;
+    border-radius: 5px;
+    box-shadow: 10px 10px 47px 0px rgba(0,0,0,0.72);
+}
+main section h2{
+    text-align: center;
+    padding: 1rem;
+    margin: 0;
+}
+/* @media only screen and (min-width: 80px) {
+    main section{
+        height: auto;
+    }
+
+  } */
+article{
+    width: 25rem;
+    height: auto;
+    border-radius: 5px;
+    margin: 0 1rem 2rem 1rem;
+    padding: 1rem;
+    box-shadow: 10px 10px 30px -8px rgba(0,0,0,0.79);
+}
+button{
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+}
+.head{
+    display: flex;
+    flex-direction: row;
+}
+.head h4{
+    width: 24rem;
+}

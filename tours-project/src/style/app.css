@@ -1,0 +1,101 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+main section{
+    width: 31rem;
+    height: 5rem;
+    background-color: white;
+    margin: 6rem auto;
+}
+main .appHeading{
+    font-style: italic;
+    padding: 4px;
+    margin-left: 10rem;
+    margin-bottom: 0;
+}
+hr{
+    width: 20%;
+    background-color: blue;
+    height: 3px;
+    margin: 0 auto;
+}
+@media only screen and (min-height: 80px) {
+    main section{
+        height: auto;
+    }
+  }
+button{
+    width: 20rem;
+    margin: 0.5rem 5.5rem;
+    cursor: pointer;
+    background-color: white;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    border: 1px solid darkgray;
+}
+button:hover{
+    color: white;
+    background-color: gray;
+}
+.listArticle{
+    margin: 2rem 1rem;
+    box-shadow: 10px 10px 38px -6px rgba(0,0,0,0.67);
+    /* position: relative; */
+    width: 29rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.listArticle .row1,
+.listArticle .row1 > img{
+   height: 14rem;
+   width: 29rem;
+   border-radius: 3px;
+}
+.listArticle .row2{
+    width: 29rem;
+    height: auto;
+    /* background-color: rebeccapurple; */
+   
+}
+.listArticle .row2 .head{
+    display: flex;
+    flex-direction: row;
+    margin: 0.5rem;
+    padding: 5px;
+}
+.listArticle .row2 .head h4{
+    margin: 0;
+    width: 25rem;
+}
+.listArticle .row2 .head span{
+    background-color: rgb(163, 241, 241);
+    color: rgb(34, 99, 99);
+    border-radius: 10%;
+    width: auto;
+    text-align: center;
+}
+.listArticle .articalButton{
+    border: 1px solid darkgray;
+    width: 10rem;
+    background-color: white;
+    margin-left: 9rem;
+    margin-top: 1rem;
+}
+.listArticle .articalButton:hover{
+    color: white;
+    background-color: gray;
+}
+.listArticle .row2 p{
+    margin: 0;
+    padding: 0.5rem;
+    text-align: left;
+}
+a{
+    color: rgb(69, 69, 223);
+    cursor: pointer;
+}
